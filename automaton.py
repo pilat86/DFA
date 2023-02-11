@@ -7,8 +7,6 @@ class Automaton:
         self.alphabet: Set[str] = set()
 
 
-        
-# Tu píšte svoj kód
 def uloha(n: int) -> Tuple[bool, Automaton]:
     automaton = Automaton()
     automaton.start_state = "z"
