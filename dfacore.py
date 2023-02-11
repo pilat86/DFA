@@ -35,9 +35,9 @@ print(f"\nTransitions: \n{dfa}\n")
 binary_number = "11"
 
 if is_accepted(binary_number, "q0", {"q0"}, dfa):
-    print(f"\nAccepted!\n")
+    print(f"Accepted!\n")
 else:
-    print(f"\nNot Accepted!\n")
+    print(f"Not Accepted!\n")
 
 
 
