@@ -7,7 +7,7 @@ class Automaton:
         self.alphabet: Set[str] = set()
 
 
-def uloha(n: int) -> Tuple[bool, Automaton]:
+def dfa(n: int) -> Tuple[bool, Automaton]:
     automaton = Automaton()
     automaton.start_state = "z"
     automaton.alphabet = {1, 0}
