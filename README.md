@@ -1,2 +1,1 @@
-# DFA
-Deterministic Finite Automata for binary numbers divisible by n
+Deterministic Finite Automata for every binary number divisible by "n".
